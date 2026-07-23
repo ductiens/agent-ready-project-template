@@ -1,0 +1,45 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs, coverage, caches, and temporary files
+*.log
+coverage/
+.coverage
+.cache/
+.tmp/
+tmp/
+
+# JavaScript and TypeScript
+node_modules/
+dist/
+build/
+.next/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Rust and Go
+target/
+
+# Java and Gradle
+.gradle/
+
+# Agent-local runtime state
+.agent/tasks/
+.codex/local/
